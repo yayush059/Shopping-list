@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>grocery list</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <div id="container">
+        <img id="image" src="images/3730806.jpg" alt="shopping picture">
+        <div class="input-text-mic">
+            <input id="input-field" type="text" name="input" placeholder="items...">
+            <button id="mic-on">🎙️</button>
+            <button id="mic-off">📴</button>
+            <button id="clear-input-field">❌</button>
+            <p id="counter"></p>
+        </div>
+
+        <button id="add-button" >Add Item</button>
+        <ul id="shopping-list">
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./speech_recognition.js"></script>
+
+</body>
+
+</html>
